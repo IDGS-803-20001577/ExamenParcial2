@@ -6,6 +6,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Importa el script de Boot
 import "./ProductDetail.css"; // Importa tu archivo CSS personalizado
 import { useNavigate } from "react-router-dom";
 
+
 const ProductDetail = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
@@ -42,9 +43,6 @@ const ProductDetail = () => {
         <div className="row">
           {" "}
           <div className="mt-4">
-          <h3>
-
-            </h3>
             <div className="input-group">
               <input
                 type="text"

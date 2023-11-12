@@ -29,9 +29,8 @@ const SearchResult = () => {
       <div className="row justify-content-center mb-4">
         <div className="col-md-6">
           <div className="input-group">
-          <h1>
+          <img src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" width="50" height="50" />
 
-            </h1>
             <input
               type="text"
               className="form-control"

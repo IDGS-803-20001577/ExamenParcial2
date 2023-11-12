@@ -16,9 +16,8 @@ const Home = () => {
   return (
     <div className="container d-flex align-items-center justify-content-center vh-100">
       <div className="text-center">
-      <h1>
-             
-            </h1>
+      <img src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" width="50" height="50" />
+
         <h1>BAZAR ONLINE</h1>
 
         <div className="input-group mb-3">
