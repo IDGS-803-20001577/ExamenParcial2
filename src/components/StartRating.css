@@ -1,0 +1,15 @@
+/* StarRating.css */
+.star-rating {
+    display: flex;
+  }
+  
+  .star {
+    color: gray; /* Color amarillo para las estrellas */
+    font-size: 1.5em;
+    margin-right: 2px;
+  }
+  
+  .star.filled {
+    color: #f39c12; /* Color más oscuro para estrellas rellenas */
+  }
+  

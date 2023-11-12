@@ -1,0 +1,36 @@
+/* ProductDetail.css */
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e44d26; /* Color similar al de Mercado Libre */
+  }
+  
+  .description {
+    margin-top: 20px;
+  }
+  
+  /* Puedes agregar más estilos según tus necesidades */
+  /* ProductDetail.css */
+
+/* Estilo para el carrusel de imágenes */
+#imageCarousel {
+  max-width: 100%;
+  margin: auto;
+}
+
+/* Estilo para el contenedor de imágenes en el carrusel */
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+/* Ajuste de estilo para el contenedor principal */
+.container {
+  margin-top: 50px;
+}
+
+/* Estilo para el botón de búsqueda */
+.input-group-append button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
