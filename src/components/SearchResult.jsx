@@ -4,8 +4,6 @@ import api from '../services/api';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './SearchResult.css'; 
 import { useNavigate } from 'react-router-dom';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  faShoppingBag } from "@fortawesome/free-solid-svg-icons";
 import StarRating from './StartRating';
 
 const SearchResult = () => {
@@ -32,7 +30,7 @@ const SearchResult = () => {
         <div className="col-md-6">
           <div className="input-group">
           <h1>
-              <FontAwesomeIcon icon={faShoppingBag} className="search-icon" />
+
             </h1>
             <input
               type="text"

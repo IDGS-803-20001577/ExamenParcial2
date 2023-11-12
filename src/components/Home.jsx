@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importar estilos de Bootstrap
 import './Home.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  faShoppingBag } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -19,7 +17,7 @@ const Home = () => {
     <div className="container d-flex align-items-center justify-content-center vh-100">
       <div className="text-center">
       <h1>
-              <FontAwesomeIcon icon={faShoppingBag} className="search-icon" />
+             
             </h1>
         <h1>BAZAR ONLINE</h1>
 

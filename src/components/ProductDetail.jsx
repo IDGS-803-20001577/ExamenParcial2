@@ -5,8 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Importa el script de Bootstrap
 import "./ProductDetail.css"; // Importa tu archivo CSS personalizado
 import { useNavigate } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -45,7 +43,7 @@ const ProductDetail = () => {
           {" "}
           <div className="mt-4">
           <h3>
-              <FontAwesomeIcon icon={faSearch} className="search-icon" /> Buscar otro producto
+
             </h3>
             <div className="input-group">
               <input
